@@ -1,5 +1,7 @@
 var word = document.getElementById("word");
 var btn = document.getElementById("btn");
+var h1 = document.getElementById("h1");
+var pra = document.getElementById("pra");
 
 var quotes = [
     {
@@ -43,6 +45,8 @@ var quotes = [
 var lastQuoteIndex = -1;
 
 btn.addEventListener("click", function () {
+    h1.innerHTML = "Quote of the Day" ;
+    pra.innerHTML =" Press the button below to recieve a random quote" ;
     var randomIndex;
         do {
         randomIndex = Math.floor(Math.random() * quotes.length);
@@ -53,7 +57,7 @@ btn.addEventListener("click", function () {
     var randomQuote = quotes[randomIndex];
     word.innerHTML = randomQuote.qutes + randomQuote.author;
     word.classList.add("show");
-});
+    });
 
 
 
@@ -100,6 +104,8 @@ var quotesAr = [
 
 
     btnAr.addEventListener("click", function () {
+        h1.innerHTML = "اقتبس من اليوم" ;
+    pra.innerHTML ="! اضغط على الزر أدناه لتلقي عرض أسعار عشوائي" ;
         var randomIndex;
             do {
             randomIndex = Math.floor(Math.random() * quotesAr.length);
