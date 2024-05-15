@@ -1,14 +1,5 @@
-var load = document.getElementById("load");
 var word = document.getElementById("word");
 var btn = document.getElementById("btn");
-
-window.addEventListener("load", () => {
-  load.style.display = "block";
-  setTimeout(() => {
-    load.style.display = "none";
-  }, 1000);
-});
-
 
 var quotes = [
     {
@@ -120,4 +111,13 @@ var quotesAr = [
         word.innerHTML = randomQuote.qutes + randomQuote.author;
         word.classList.add("show");
     });
+    var lood = document.getElementById("load");
+
+    window.addEventListener('load', (event) => {
+        lood.style.display = "flex";
+    });
+    
+    setTimeout(() => {
+        lood.style.display = "none";
+    }, 1000);
     
