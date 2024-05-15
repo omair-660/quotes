@@ -105,7 +105,7 @@ var quotesAr = [
 
     btnAr.addEventListener("click", function () {
         h1.innerHTML = "اقتبس من اليوم" ;
-    pra.innerHTML ="! اضغط على الزر أدناه لتلقي عرض أسعار عشوائي" ;
+    pra.innerHTML ="! اضغط على الزر أدناه لتلقي عرض اقتباس عشوائي" ;
         var randomIndex;
             do {
             randomIndex = Math.floor(Math.random() * quotesAr.length);
