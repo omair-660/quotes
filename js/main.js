@@ -1,5 +1,15 @@
+var load = document.getElementById("load");
 var word = document.getElementById("word");
 var btn = document.getElementById("btn");
+
+window.addEventListener("load", (load) => {
+load.style.display = "block";
+    setTimeout(() => {
+  load.style.display="none";
+}, 1000);
+
+});
+
 
 var quotes = [
     {
