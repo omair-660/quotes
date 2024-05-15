@@ -1,0 +1,26 @@
+.author {
+    text-align:center;
+     text-transform:uppercase;
+    font-weight: 300;
+    color: #8f8f8f;
+    margin-top: 10px;
+}
+.quotes{
+    text-align:center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+#word{
+    opacity: 0;
+    transition: 0.5s;
+    height: 0;
+}
+#word.show{
+    opacity: 1;
+    height: 200px;
+}
+h1{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 900;
+    font-size: 2.25rem;
+}
