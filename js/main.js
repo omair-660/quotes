@@ -3,7 +3,7 @@ var btn = document.getElementById("btn");
 
 var quotes = [
     {
-        qutes: '<div class="quotes" id="quotes">“Earth becomes paradise if man is always in it from God.”</div>',
+        qutes: '<div class="quotes" id="quotes">“Earth turns into heaven if a person is close to God in it.”</div>',
         author: '<div class="author">ahmed bahgat</div>'
     },
     {
@@ -59,7 +59,7 @@ btn.addEventListener("click", function () {
 
 var quotesAr = [
     {
-        qutes: '<div class="quotes" id="quotes">تصبح الأرض جنة إذا كان الإنسان دائمًا فيها من الله.</div>',
+        qutes: '<div class="quotes" id="quotes">"تتحوّل الأرض إلى جنة إذا كان الإنسان فيها قريبًا من الله"</div>',
         author: '<div class="author">أحمد بهجت</div>'
     },
     {
@@ -68,7 +68,7 @@ var quotesAr = [
     },
     {
         qutes: '<div class="quotes" id="quotes">المثابرة تفوق الذكاء، والصبر يفوق الحظ، والنتيجة دائمًا مهمة!</div>',
-        author: '<div class="author">أنس ماسور</div>'
+        author: '<div class="author">أنس منصور</div>'
     },
     {
         qutes: '<div class="quotes" id="quotes">عندما تُصحح أخلاقنا، ويُعيد نقاوتها ونقاءها إلى جوهرنا العربي، ويُغسل قذارتها، سنستعيد فلسطين ونعيد مملكة آبائنا.</div>',
