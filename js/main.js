@@ -59,39 +59,39 @@ btn.addEventListener("click", function () {
 
 var quotesAr = [
     {
-        qutes: '<div class="quotes" id="quotes">"تتحوّل الأرض إلى جنة إذا كان الإنسان فيها قريبًا من الله"</div>',
+        qutes: '<div class="quotes ar" id="quotes">"تتحوّل الأرض إلى جنة إذا كان الإنسان فيها قريبًا من الله"</div>',
         author: '<div class="author">أحمد بهجت</div>'
     },
     {
-        qutes: '<div class="quotes" id="quotes">الجميع يبكي على ماضيه ويتوق إليه، فلماذا لا نفكر في الحاضر قبل أن يصبح ماضيًا؟</div>',
+        qutes: '<div class="quotes ar" id="quotes">الجميع يبكي على ماضيه ويتوق إليه، فلماذا لا نفكر في الحاضر قبل أن يصبح ماضيًا؟</div>',
         author: '<div class="author">علي الطنطاوي</div>'
     },
     {
-        qutes: '<div class="quotes" id="quotes">المثابرة تفوق الذكاء، والصبر يفوق الحظ، والنتيجة دائمًا مهمة!</div>',
+        qutes: '<div class="quotes ar" id="quotes">!المثابرة تفوق الذكاء، والصبر يفوق الحظ، والنتيجة دائمًا مهمة</div>',
         author: '<div class="author">أنس منصور</div>'
     },
     {
-        qutes: '<div class="quotes" id="quotes">عندما تُصحح أخلاقنا، ويُعيد نقاوتها ونقاءها إلى جوهرنا العربي، ويُغسل قذارتها، سنستعيد فلسطين ونعيد مملكة آبائنا.</div>',
+        qutes: '<div class="quotes ar" id="quotes">.عندما تُصحح أخلاقنا، ويُعيد نقاوتها ونقاءها إلى جوهرنا العربي، ويُغسل قذارتها، سنستعيد فلسطين ونعيد مملكة آبائنا</div>',
         author: '<div class="author">علي الطنطاوي</div>'
     },
     {
-        qutes: '<div class="quotes" id="quotes">العزلة: زاوية صغيرة تقف فيها أمام عقلك، حيث أن المواجهة لا مفر منها.</div>',
+        qutes: '<div class="quotes ar" id="quotes">.العزلة: زاوية صغيرة تقف فيها أمام عقلك، حيث أن المواجهة لا مفر منها</div>',
         author: '<div class="author">سعود السنعوسي</div>'
     },
     {
-        qutes: '<div class="quotes" id="quotes">كن التغيير الذي تتمناه في العالم.</div>',
+        qutes: '<div class="quotes ar" id="quotes">كن التغيير الذي تتمناه في العالم.</div>',
         author: '<div class="author" id="author">مهاتما غاندي</div>'
     },
     {
-        qutes: '<div class="quotes" id="quotes">إذا قلت الحقيقة، فليس عليك أن تتذكر شيئًا.</div>',
+        qutes: '<div class="quotes ar" id="quotes">إذا قلت الحقيقة، فليس عليك أن تتذكر شيئًا.</div>',
         author: '<div class="author">مارك توين</div>'
     },
     {
-        qutes: '<div class="quotes" id="quotes">اغفر دائمًا لأعدائك؛ فلا شيء يزعجهم كثيرًا.</div>',
+        qutes: '<div class="quotes ar" id="quotes">.اغفر دائمًا لأعدائك؛ فلا شيء يزعجهم كثيرًا</div>',
         author: '<div class="author">أوسكار وايلد</div>'
     },
     {
-        qutes: '<div class="quotes" id="quotes">الجنون هو القيام بالشيء نفسه مرارًا وتكرارًا، ولكن بتوقع نتائج مختلفة.</div>',
+        qutes: '<div class="quotes ar" id="quotes">.الجنون هو القيام بالشيء نفسه مرارًا وتكرارًا، ولكن بتوقع نتائج مختلفة</div>',
         author: '<div class="author">مجموعة مجهولة</div>'
     }
     ];
